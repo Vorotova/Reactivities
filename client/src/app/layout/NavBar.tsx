@@ -32,6 +32,9 @@ const {uiStore} = useStore();
               <MenuItemLink to='/counter'>
                 Counter
               </MenuItemLink>
+              <MenuItemLink to='/errors'>
+                Errors
+              </MenuItemLink>
             </Box>
             <MenuItem>
               User menu
