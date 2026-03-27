@@ -1,7 +1,10 @@
 using System;
 using System.Collections.ObjectModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace Domain;
+
+[Index(nameof(Date))]
 
 public class Activity
 {
